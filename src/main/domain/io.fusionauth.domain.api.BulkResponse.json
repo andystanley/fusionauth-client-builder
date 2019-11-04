@@ -1,7 +1,7 @@
 {
   "packageName" : "io.fusionauth.domain.api",
-  "type" : "UserDeleteRequest",
-  "description" : "/**\n * User API delete request object.\n *\n * @author Daniel DeGroff\n */\n",
+  "type" : "BulkResponse",
+  "description" : "/**\n * User API response object.\n *\n * @author Trevor Smith\n */\n",
   "fields" : {
     "dryRun" : {
       "type" : "boolean"
@@ -9,10 +9,13 @@
     "hardDelete" : {
       "type" : "boolean"
     },
+    "total" : {
+      "type" : "int"
+    },
     "userIds" : {
       "type" : "List",
       "typeArguments" : [ {
-        "type" : "UUID"
+        "type" : "String"
       } ]
     }
   }

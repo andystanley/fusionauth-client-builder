@@ -16,7 +16,6 @@
  */
 package io.fusionauth.client;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -40,6 +39,7 @@ import io.fusionauth.domain.api.AuditLogRequest;
 import io.fusionauth.domain.api.AuditLogResponse;
 import io.fusionauth.domain.api.AuditLogSearchRequest;
 import io.fusionauth.domain.api.AuditLogSearchResponse;
+import io.fusionauth.domain.api.BulkResponse;
 import io.fusionauth.domain.api.ConsentRequest;
 import io.fusionauth.domain.api.ConsentResponse;
 import io.fusionauth.domain.api.EmailTemplateRequest;
