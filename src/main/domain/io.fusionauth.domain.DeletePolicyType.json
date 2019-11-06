@@ -1,0 +1,12 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "DeletePolicyType",
+  "description" : "/**\n * A policy for deleting Users.\n *\n * @author Trevor Smith\n */\n",
+  "enum" : [ {
+    "name" : "orphaned",
+    "args" : [ "_exists_:parentEmail" ]
+  }, {
+    "name" : "unverified",
+    "args" : [ "verified:false" ]
+  } ]
+}
