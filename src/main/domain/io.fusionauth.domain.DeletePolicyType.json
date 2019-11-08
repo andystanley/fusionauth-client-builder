@@ -8,5 +8,8 @@
   }, {
     "name" : "unverified",
     "args" : [ "verified:false" ]
+  }, {
+    "name" : "unverifiedRegistration",
+    "args" : [ "registrations.verified:false" ]
   } ]
 }

@@ -30,6 +30,14 @@
         "type" : "Object"
       } ]
     },
+    "deletePolicies" : {
+      "type" : "Map",
+      "typeArguments" : [ {
+        "type" : "DeletePolicyType"
+      }, {
+        "type" : "DeletePolicy"
+      } ]
+    },
     "id" : {
       "type" : "UUID"
     },
