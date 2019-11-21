@@ -12,6 +12,9 @@
     "query" : {
       "type" : "String"
     },
+    "queryString" : {
+      "type" : "String"
+    },
     "userIds" : {
       "type" : "List",
       "typeArguments" : [ {
