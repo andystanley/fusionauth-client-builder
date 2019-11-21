@@ -9,6 +9,9 @@
     "hardDelete" : {
       "type" : "boolean"
     },
+    "query" : {
+      "type" : "String"
+    },
     "userIds" : {
       "type" : "List",
       "typeArguments" : [ {

@@ -30,14 +30,6 @@
         "type" : "Object"
       } ]
     },
-    "deletePolicies" : {
-      "type" : "Map",
-      "typeArguments" : [ {
-        "type" : "DeletePolicyType"
-      }, {
-        "type" : "DeletePolicy"
-      } ]
-    },
     "id" : {
       "type" : "UUID"
     },
@@ -73,6 +65,9 @@
     },
     "tenantId" : {
       "type" : "UUID"
+    },
+    "registrationDeletePolicy" : {
+      "type" : "ApplicationRegistrationDeletePolicy"
     },
     "verificationEmailTemplateId" : {
       "type" : "UUID"

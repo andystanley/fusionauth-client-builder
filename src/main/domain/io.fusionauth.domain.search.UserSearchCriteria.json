@@ -30,6 +30,9 @@
     "queryString" : {
       "type" : "String"
     },
+    "query" : {
+      "type" : "String"
+    },
     "sortFields" : {
       "type" : "List",
       "typeArguments" : [ {

@@ -9,12 +9,6 @@
     } ]
   } ],
   "fields" : {
-    "deleteUnverifiedAccounts" : {
-      "type" : "boolean"
-    },
-    "deleteUnverifiedAccountsDays" : {
-      "type" : "int"
-    },
     "forgotPasswordEmailTemplateId" : {
       "type" : "UUID"
     },

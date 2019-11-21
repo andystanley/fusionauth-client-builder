@@ -46,14 +46,6 @@
     "issuer" : {
       "type" : "String"
     },
-    "deletePolicies" : {
-      "type" : "Map",
-      "typeArguments" : [ {
-        "type" : "DeletePolicyType"
-      }, {
-        "type" : "DeletePolicy"
-      } ]
-    },
     "jwtConfiguration" : {
       "type" : "JWTConfiguration"
     },
@@ -77,6 +69,9 @@
     },
     "themeId" : {
       "type" : "UUID"
+    },
+    "userDeletePolicy" : {
+      "type" : "TenantUserDeletePolicy"
     }
   }
 }
