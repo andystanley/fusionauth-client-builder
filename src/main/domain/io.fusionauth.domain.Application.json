@@ -54,6 +54,9 @@
     "registrationConfiguration" : {
       "type" : "RegistrationConfiguration"
     },
+    "registrationDeletePolicy" : {
+      "type" : "ApplicationRegistrationDeletePolicy"
+    },
     "roles" : {
       "type" : "List",
       "typeArguments" : [ {
@@ -65,9 +68,6 @@
     },
     "tenantId" : {
       "type" : "UUID"
-    },
-    "registrationDeletePolicy" : {
-      "type" : "ApplicationRegistrationDeletePolicy"
     },
     "verificationEmailTemplateId" : {
       "type" : "UUID"
