@@ -5,7 +5,7 @@
   ],
   "method": "delete",
   "methodName": "deactivateUsers",
-  "successResponse": "BulkResponse",
+  "successResponse": "UserDeleteResponse",
   "errorResponse": "Errors",
   "params": [
     {

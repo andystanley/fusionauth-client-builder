@@ -35,7 +35,7 @@ import io.fusionauth.domain.api.AuditLogRequest;
 import io.fusionauth.domain.api.AuditLogResponse;
 import io.fusionauth.domain.api.AuditLogSearchRequest;
 import io.fusionauth.domain.api.AuditLogSearchResponse;
-import io.fusionauth.domain.api.BulkResponse;
+import io.fusionauth.domain.api.UserDeleteResponse;
 import io.fusionauth.domain.api.EmailTemplateRequest;
 import io.fusionauth.domain.api.EmailTemplateResponse;
 import io.fusionauth.domain.api.EventLogSearchRequest;

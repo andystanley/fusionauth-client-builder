@@ -5,7 +5,7 @@
   ],
   "method": "delete",
   "methodName": "deactivateUsersByQuery",
-  "successResponse": "BulkResponse",
+  "successResponse": "UserDeleteResponse",
   "errorResponse": "Errors",
   "params": [
     {
