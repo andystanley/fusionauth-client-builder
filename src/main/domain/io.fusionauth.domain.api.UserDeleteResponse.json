@@ -1,0 +1,22 @@
+{
+  "packageName" : "io.fusionauth.domain.api",
+  "type" : "UserDeleteResponse",
+  "description" : "/**\n * User API bulk response object.\n *\n * @author Trevor Smith\n */\n",
+  "fields" : {
+    "dryRun" : {
+      "type" : "boolean"
+    },
+    "hardDelete" : {
+      "type" : "boolean"
+    },
+    "total" : {
+      "type" : "int"
+    },
+    "userIds" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "String"
+      } ]
+    }
+  }
+}
